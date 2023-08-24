@@ -7,6 +7,7 @@ import NotifCount from "./practice/notifCount";
 import ListUser from "./practice/users/ListUser";
 import Inputs from './practice/inputs'
 import Form from './practice/Form/Form'
+import Quiz from "./practice/Quiz/Quiz";
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <NotifCount /> */}
       {/* <ListUser/> */}
       {/* <Inputs /> */}
-      <Form />
+      {/* <Form /> */}
+      <Quiz />
     </div>
   );
 }
