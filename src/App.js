@@ -8,6 +8,7 @@ import ListUser from "./practice/users/ListUser";
 import Inputs from './practice/inputs'
 import Form from './practice/Form/Form'
 import Quiz from "./practice/Quiz/Quiz";
+import Ticket from './practice/Ticket/Ticket'
 
 export default function App() {
   return (
@@ -19,7 +20,8 @@ export default function App() {
       {/* <ListUser/> */}
       {/* <Inputs /> */}
       {/* <Form /> */}
-      <Quiz />
+      {/* <Quiz /> */}
+      <Ticket />
     </div>
   );
 }
