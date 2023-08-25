@@ -7,9 +7,9 @@ export default class User extends Component {
   render() {
     return (
       <div className='border'>
-        <h1>id ={this.props.id} <BiSolidUserRectangle /></h1>
-        <h1>name ={this.props.name} <BsChatHeart /></h1>
-        <h1>age ={this.props.age} <MdLanguage /></h1>
+        <h1 style={{ color : 'red' }}>id ={this.props.id} <BiSolidUserRectangle /></h1>
+        <h1 style={{background:'pink',color:'white'}}>name ={this.props.name} <BsChatHeart /></h1>
+        <h1 style={{color:'green'}}>age ={this.props.age} <MdLanguage /></h1>
       </div>
     )
   }
