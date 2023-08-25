@@ -15,6 +15,7 @@ import Header from "./practice/BookList/Header"
 import AddForm from "./practice/BookList/AddForm"
 
 import Shop from "./practice/Shop/Shop"
+import TodoList from "./practice/TodoList/TodoList"
 export default function App() {
   return (
     <div className="App">
@@ -33,7 +34,9 @@ export default function App() {
         <Header />
         <AddForm />
       </div> */}
-      <Shop />
+      {/* <Shop /> */}
+
+      <TodoList />
     </div>
   )
 }
