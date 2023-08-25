@@ -13,6 +13,8 @@ import MethodProp from "./practice/testMethod/method-prop"
 
 import Header from "./practice/BookList/Header"
 import AddForm from "./practice/BookList/AddForm"
+
+import Shop from "./practice/Shop/Shop"
 export default function App() {
   return (
     <div className="App">
@@ -26,10 +28,12 @@ export default function App() {
       {/* <Quiz /> */}
       {/* <Ticket /> */}
       {/* <MethodProp/> */}
-      <div className="container">
+
+      {/* <div className="container">
         <Header />
         <AddForm />
-      </div>
+      </div> */}
+      <Shop />
     </div>
   )
 }
