@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-  }
+  } */
   
   .app {
     background-color: #252d4a;
@@ -73,7 +73,7 @@ body {
     justify-content: space-between;
   }
   
-  button {
+  .app button {
     margin-bottom: 10px;
     width: 100%;
     font-size: 16px;
@@ -96,15 +96,15 @@ body {
     background-color: #ff3333;
   }
   
-  button:hover {
+  .app button:hover {
     background-color: #555e7d;
   }
   
-  button:focus {
+  .app button:focus {
     outline: none;
   }
   
-  button svg {
+  .app button svg {
     margin-right: 5px;
   }
   

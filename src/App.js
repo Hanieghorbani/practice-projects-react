@@ -9,6 +9,7 @@ import Inputs from './practice/inputs'
 import Form from './practice/Form/Form'
 import Quiz from "./practice/Quiz/Quiz";
 import Ticket from './practice/Ticket/Ticket'
+import MethodProp from "./practice/testMethod/method-prop";
 
 export default function App() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
       {/* <Inputs /> */}
       {/* <Form /> */}
       {/* <Quiz /> */}
-      <Ticket />
+      {/* <Ticket /> */}
+      <MethodProp/>
     </div>
   );
 }
