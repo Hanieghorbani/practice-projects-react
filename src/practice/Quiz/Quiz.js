@@ -48,8 +48,6 @@ export default class Quiz extends React.Component {
       showScore: false,
       score: 0,
     }
-
-    console.log()
   }
 
   selectHandler(isCorrect) {
@@ -72,12 +70,11 @@ export default class Quiz extends React.Component {
   render() {
     return (
       <div className="app">
-        {this.state.showScore && (
+        {this.state.showScore ? (
           <div className="score-section">You scored {this.state.score} out of {this.state.questions.length}</div>
-        )}
-
-        {!this.state.showScore && (
-          <div className="question-section">
+        ) : (
+          <>
+            <div className="question-section">
             <div className="question-count">
               <span>Question {this.state.currentQuestion + 1}</span>/{" "}
               {this.state.questions.length}
@@ -86,12 +83,10 @@ export default class Quiz extends React.Component {
               {this.state.questions[this.state.currentQuestion].questionText}
             </div>
           </div>
-        )}
-        {!this.state.showScore && (
           <div className="answer-section">
             {this.state.questions[this.state.currentQuestion].answerOptions.map(
               (option) => (
-                <div>
+                <div key={Math.random()}>
                   <button onClick={() => this.selectHandler(option.isCorrect)}>
                     {option.answerText}
                   </button>
@@ -99,6 +94,7 @@ export default class Quiz extends React.Component {
               )
             )}
           </div>
+          </>
         )}
       </div>
     )

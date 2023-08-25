@@ -23,7 +23,7 @@ export default function App() {
       {/* <Form /> */}
       {/* <Quiz /> */}
       {/* <Ticket /> */}
-      <MethodProp/>
+      {/* <MethodProp/> */}
     </div>
   );
 }
