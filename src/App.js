@@ -18,7 +18,7 @@ export default function App() {
       {/* <Counter /> */}
       {/* <Temp /> */}
       {/* <NotifCount /> */}
-      {/* <ListUser/> */}
+      <ListUser/>
       {/* <Inputs /> */}
       {/* <Form /> */}
       {/* <Quiz /> */}
