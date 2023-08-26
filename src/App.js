@@ -16,6 +16,7 @@ import AddForm from "./practice/BookList/AddForm"
 
 import Shop from "./practice/Shop/Shop"
 import TodoList from "./practice/TodoList/TodoList"
+import NoteApp from "./practice/NoteApp/NoteApp"
 export default function App() {
   return (
     <div className="App">
@@ -36,7 +37,9 @@ export default function App() {
       </div> */}
       {/* <Shop /> */}
 
-      <TodoList />
+      {/* <TodoList /> */}
+
+      <NoteApp />
     </div>
   )
 }
