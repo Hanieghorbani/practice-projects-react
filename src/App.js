@@ -1,4 +1,3 @@
-import "./bts/bootstrap.min.css"
 import "./App.css"
 
 import Counter from "./practice/counter"
