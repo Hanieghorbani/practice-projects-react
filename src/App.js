@@ -16,6 +16,16 @@ import AddForm from "./practice/BookList/AddForm"
 import Shop from "./practice/Shop/Shop"
 import TodoList from "./practice/TodoList/TodoList"
 import NoteApp from "./practice/NoteApp/NoteApp"
+
+import Alert from "react-bootstrap/Alert"
+import Accordion from "react-bootstrap/Accordion"
+import Button from 'react-bootstrap/Button';
+import BootstarpTest from "./practice/bootstarp-test"
+
+import CourseResponsive from "./practice/course-responsive/course-responsive"
+
+import FetchTest from "./practice/fetch-test"
+
 export default function App() {
   return (
     <div className="App">
@@ -36,9 +46,15 @@ export default function App() {
       </div> */}
       {/* <Shop /> */}
 
-      {/* <TodoList /> */}
+      <TodoList />
 
-      <NoteApp />
+      {/* <NoteApp /> */}
+
+     {/* <BootstarpTest /> */}
+
+     {/* <CourseResponsive /> */}
+
+     {/* <FetchTest /> */}
     </div>
   )
 }
