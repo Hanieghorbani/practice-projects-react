@@ -46,11 +46,11 @@ export default function App() {
       </div> */}
       {/* <Shop /> */}
 
-      <TodoList />
+      {/* <TodoList /> */}
 
       {/* <NoteApp /> */}
 
-     {/* <BootstarpTest /> */}
+     <BootstarpTest />
 
      {/* <CourseResponsive /> */}
 
