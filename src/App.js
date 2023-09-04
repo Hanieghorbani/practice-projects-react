@@ -26,6 +26,15 @@ import CourseResponsive from "./practice/course-responsive/course-responsive"
 
 import FetchTest from "./practice/fetch-test"
 
+import Router from "./practice/test-router/Router"
+
+
+// import { Route,Routes } from 'react-router-dom'
+// import Home from "./practice/test-router/Home"
+// import About from "./practice/test-router/About"
+// import Contacts from "./practice/test-router/Contacts"
+// import Products from "./practice/test-router/Products"
+
 export default function App() {
   return (
     <div className="App">
@@ -50,11 +59,22 @@ export default function App() {
 
       {/* <NoteApp /> */}
 
-     <BootstarpTest />
+     {/* <BootstarpTest /> */}
 
      {/* <CourseResponsive /> */}
 
      {/* <FetchTest /> */}
+
+
+
+     {/* <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/contacts' element={<Contacts/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/products' element={<Products/>}/>
+      </Routes> */}
+
+      <Router />
     </div>
   )
 }
