@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-/* body {
+body {
   background: #76b852;
   display: flex;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-} */
+}
 
-/*
+
 
 .form-container {
   width: 360px;
@@ -66,4 +66,4 @@
   cursor: default;
 }
 
-*/
+

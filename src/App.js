@@ -27,7 +27,7 @@ import CourseResponsive from "./practice/course-responsive/course-responsive"
 import FetchTest from "./practice/fetch-test"
 
 import Router from "./practice/test-router/Router"
-
+import Router2 from "./practice/test-router2/Router"
 
 // import { Route,Routes } from 'react-router-dom'
 // import Home from "./practice/test-router/Home"
@@ -35,6 +35,7 @@ import Router from "./practice/test-router/Router"
 // import Contacts from "./practice/test-router/Contacts"
 // import Products from "./practice/test-router/Products"
 
+import Users from "./usersFire/Users"
 export default function App() {
   return (
     <div className="App">
@@ -44,7 +45,8 @@ export default function App() {
       {/* <NotifCount /> */}
       {/* <ListUser/> */}
       {/* <Inputs /> */}
-      {/* <Form /> */}
+      <Form />
+      <Users />
       {/* <Quiz /> */}
       {/* <Ticket /> */}
       {/* <MethodProp/> */}
@@ -74,7 +76,9 @@ export default function App() {
         <Route path='/products' element={<Products/>}/>
       </Routes> */}
 
-      <Router />
+      {/* <Router2 /> */}
+      
+      
     </div>
   )
 }
