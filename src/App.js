@@ -35,7 +35,14 @@ import Router2 from "./practice/test-router2/Router"
 // import Contacts from "./practice/test-router/Contacts"
 // import Products from "./practice/test-router/Products"
 
+
 import Users from "./usersFire/Users"
+
+import Rechart from "./practice/rechart"
+import CustomHook from "./practice2/customHooks/customHook"
+import Counter2 from "./practice2/counter2/Counter2"
+import FetchPost from "./practice2/fetchPosts/fetchPost"
+import LocalStorage from "./practice2/localStorage/LocalStorage"
 export default function App() {
   return (
     <div className="App">
@@ -45,8 +52,8 @@ export default function App() {
       {/* <NotifCount /> */}
       {/* <ListUser/> */}
       {/* <Inputs /> */}
-      <Form />
-      <Users />
+      {/* <Form /> */}
+      {/* <Users /> */}
       {/* <Quiz /> */}
       {/* <Ticket /> */}
       {/* <MethodProp/> */}
@@ -77,8 +84,12 @@ export default function App() {
       </Routes> */}
 
       {/* <Router2 /> */}
-      
-      
+      {/* <Rechart /> */}
+
+      {/* <CustomHook /> */}
+      {/* <Counter2 /> */}
+      {/* <FetchPost /> */}
+      <LocalStorage />
     </div>
   )
 }
