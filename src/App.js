@@ -43,6 +43,8 @@ import CustomHook from "./practice2/customHooks/customHook"
 import Counter2 from "./practice2/counter2/Counter2"
 import FetchPost from "./practice2/fetchPosts/fetchPost"
 import LocalStorage from "./practice2/localStorage/LocalStorage"
+import MemoHook from "./practice2/memoHook"
+import MemoHook2 from "./practice2/MemoHook2"
 export default function App() {
   return (
     <div className="App">
@@ -89,7 +91,9 @@ export default function App() {
       {/* <CustomHook /> */}
       {/* <Counter2 /> */}
       {/* <FetchPost /> */}
-      <LocalStorage />
+      {/* <LocalStorage /> */}
+      {/* <MemoHook /> */}
+      <MemoHook2 />
     </div>
   )
 }
