@@ -45,6 +45,7 @@ import FetchPost from "./practice2/fetchPosts/fetchPost"
 import LocalStorage from "./practice2/localStorage/LocalStorage"
 import MemoHook from "./practice2/memoHook"
 import MemoHook2 from "./practice2/MemoHook2"
+import UseCallback from "./practice2/UseCallback"
 export default function App() {
   return (
     <div className="App">
@@ -93,7 +94,8 @@ export default function App() {
       {/* <FetchPost /> */}
       {/* <LocalStorage /> */}
       {/* <MemoHook /> */}
-      <MemoHook2 />
+      {/* <MemoHook2 /> */}
+      <UseCallback />
     </div>
   )
 }
