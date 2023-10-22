@@ -46,6 +46,9 @@ import LocalStorage from "./practice2/localStorage/LocalStorage"
 import MemoHook from "./practice2/memoHook"
 import MemoHook2 from "./practice2/MemoHook2"
 import UseCallback from "./practice2/UseCallback"
+import UseRef from "./practice2/useRef/UseRef"
+import UseRef2 from "./practice2/useRef/UseRef2"
+import Timer from './practice2/useRef/Timer'
 export default function App() {
   return (
     <div className="App">
@@ -95,7 +98,10 @@ export default function App() {
       {/* <LocalStorage /> */}
       {/* <MemoHook /> */}
       {/* <MemoHook2 /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      {/* <UseRef /> */}
+      {/* <UseRef2 /> */}
+      <Timer />
     </div>
   )
 }
