@@ -49,6 +49,7 @@ import UseCallback from "./practice2/UseCallback"
 import UseRef from "./practice2/useRef/UseRef"
 import UseRef2 from "./practice2/useRef/UseRef2"
 import Timer from './practice2/useRef/Timer'
+import Todos from "./practice2/pagenation/Todos"
 export default function App() {
   return (
     <div className="App">
@@ -101,7 +102,8 @@ export default function App() {
       {/* <UseCallback /> */}
       {/* <UseRef /> */}
       {/* <UseRef2 /> */}
-      <Timer />
+      {/* <Timer /> */}
+      <Todos />
     </div>
   )
 }
