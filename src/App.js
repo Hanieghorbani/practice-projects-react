@@ -52,7 +52,9 @@ import "./App.css"
 // import Todos from "./practice2/pagenation/Todos"
 // import Main from "./practice3/hocsTest/main"
 // import WithToggle from "./practice3/hocsTest2/WithToggle"
-import WithAccordion from "./practice3/withAccordion/WithAccordion"
+// import WithAccordion from "./practice3/withAccordion/WithAccordion"
+
+import UseLayoutEff from "./practice3/useLayoutEff/UseLayoutEff"
 export default function App() {
   return (
     <div className="App">
@@ -84,8 +86,6 @@ export default function App() {
 
      {/* <FetchTest /> */}
 
-
-
      {/* <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/contacts' element={<Contacts/>}/>
@@ -109,7 +109,9 @@ export default function App() {
       {/* <Todos /> */}
       {/* <Main /> */}
       {/* <WithToggle /> */}
-      <WithAccordion />
+      {/* <WithAccordion /> */}
+
+      <UseLayoutEff />
     </div>
   )
 }
