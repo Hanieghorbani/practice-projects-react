@@ -54,7 +54,10 @@ import "./App.css"
 // import WithToggle from "./practice3/hocsTest2/WithToggle"
 // import WithAccordion from "./practice3/withAccordion/WithAccordion"
 
-import UseLayoutEff from "./practice3/useLayoutEff/UseLayoutEff"
+// import UseLayoutEff from "./practice3/useLayoutEff/UseLayoutEff"
+// import Users from "./practice3/profiler/Users"
+
+import Users from "./context-practice/Users"
 export default function App() {
   return (
     <div className="App">
@@ -111,7 +114,9 @@ export default function App() {
       {/* <WithToggle /> */}
       {/* <WithAccordion /> */}
 
-      <UseLayoutEff />
+      {/* <UseLayoutEff /> */}
+      {/* <Users /> */}
+      <Users />
     </div>
   )
 }
