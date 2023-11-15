@@ -57,7 +57,9 @@ import "./App.css"
 // import UseLayoutEff from "./practice3/useLayoutEff/UseLayoutEff"
 // import Users from "./practice3/profiler/Users"
 
-import Users from "./context-practice/Users"
+// import Users from "./context-practice/Users"
+// import Counter from "./useReducer/counter"
+import Forms from "./useReducer/Forms"
 export default function App() {
   return (
     <div className="App">
@@ -116,7 +118,10 @@ export default function App() {
 
       {/* <UseLayoutEff /> */}
       {/* <Users /> */}
-      <Users />
+      {/* <Users /> */}
+
+      {/* <Counter /> */}
+      <Forms />
     </div>
   )
 }
