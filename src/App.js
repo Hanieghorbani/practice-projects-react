@@ -62,7 +62,8 @@ import "./App.css"
 // import Forms from "./useReducer/Forms"
 // import Area from "./ques/Area/Area"
 // import IsEven from './ques/IsEven/IsEven'
-import Average from './ques/Average/Average'
+// import Average from './ques/Average/Average'
+import ChangeCase from "./ques/ChangeCase/ChangeCase"
 export default function App() {
   return (
     <div className="App">
@@ -127,7 +128,8 @@ export default function App() {
       {/* <Forms /> */}
       {/* <Area /> */}
       {/* <IsEven /> */}
-      <Average />
+      {/* <Average /> */}
+      <ChangeCase />
     </div>
   )
 }
