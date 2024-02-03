@@ -60,8 +60,9 @@ import "./App.css"
 // import Users from "./context-practice/Users"
 // import Counter from "./useReducer/counter"
 // import Forms from "./useReducer/Forms"
-import Area from "./ques/Area/Area"
-import IsEven from './ques/IsEven/IsEven'
+// import Area from "./ques/Area/Area"
+// import IsEven from './ques/IsEven/IsEven'
+import Average from './ques/Average/Average'
 export default function App() {
   return (
     <div className="App">
@@ -125,7 +126,8 @@ export default function App() {
       {/* <Counter /> */}
       {/* <Forms /> */}
       {/* <Area /> */}
-      <IsEven />
+      {/* <IsEven /> */}
+      <Average />
     </div>
   )
 }
