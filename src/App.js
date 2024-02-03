@@ -59,7 +59,8 @@ import "./App.css"
 
 // import Users from "./context-practice/Users"
 // import Counter from "./useReducer/counter"
-import Forms from "./useReducer/Forms"
+// import Forms from "./useReducer/Forms"
+import Area from "./ques/Area/Area"
 export default function App() {
   return (
     <div className="App">
@@ -121,7 +122,8 @@ export default function App() {
       {/* <Users /> */}
 
       {/* <Counter /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <Area />
     </div>
   )
 }
