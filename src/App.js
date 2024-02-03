@@ -61,6 +61,7 @@ import "./App.css"
 // import Counter from "./useReducer/counter"
 // import Forms from "./useReducer/Forms"
 import Area from "./ques/Area/Area"
+import IsEven from './ques/IsEven/IsEven'
 export default function App() {
   return (
     <div className="App">
@@ -123,7 +124,8 @@ export default function App() {
 
       {/* <Counter /> */}
       {/* <Forms /> */}
-      <Area />
+      {/* <Area /> */}
+      <IsEven />
     </div>
   )
 }
